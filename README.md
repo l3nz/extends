@@ -11,31 +11,34 @@ You define a base module (like, your base class)
 
 ```elixir
 defmodule BaseAdder do
-	def sum(a, b) do
-    	a + b
-	end
+   def sum(a, b) do
+      a + b
+   end
 end
 ```
 
 
 And then do a new class:
 
-		defmodule Adder do
-			use Extends, module: BaseAdder
+```elixir
+defmodule Adder do
+   use Extends, module: BaseAdder   
 
-			def diff(a, b) do
-		    	a - b
-			end
-		end
+   def diff(a, b) do
+      a - b
+   end
+end
+```
 
 Where you can do:
 
+```elixir
+Adder.add( 1, 2)
+3
 
-		Adder.add( 1, 2)
-		3
-		Adder.diff(3, 1)
-		2
-
+Adder.diff(3, 1)
+2
+```
 
 ## Releasing
 
