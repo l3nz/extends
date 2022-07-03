@@ -9,11 +9,13 @@ Docs at https://hexdocs.pm/extends/
 
 You define a base module (like, your base class)
 
-		defmodule BaseAdder do
-			def sum(a, b) do
-		    	a + b
-			end
-		end
+```elixir
+defmodule BaseAdder do
+	def sum(a, b) do
+    	a + b
+	end
+end
+```
 
 
 And then do a new class:
