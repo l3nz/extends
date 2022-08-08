@@ -54,6 +54,7 @@ Adder.diff(3, 1)
 
 - https://blog.appsignal.com/2021/10/26/how-to-use-macros-in-elixir.html
 - https://elixir-lang.org/getting-started/meta/macros.html
+- https://github.com/hrzndhrn/beam_file
 
 
 
